@@ -1,0 +1,5 @@
+env
+data
+.history
+notebooks/.ipynb_checkpoints
+scripts/__pycache__
