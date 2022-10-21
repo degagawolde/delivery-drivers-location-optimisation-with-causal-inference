@@ -5,6 +5,7 @@ class DataCleaning:
     
     def drop_columns(self,df,columns:list)->pd.DataFrame:
         return df.drop(columns=columns)
+    
     def get_lat_long(self,df,columns):
         for col in columns:
             df[col+'_lat'] = df[col].apply(lambda x:x.split(',')[0])
