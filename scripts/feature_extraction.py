@@ -23,3 +23,11 @@ class FeatureExtraction:
         for col in columns:
             df[col] =  df[col].apply(lambda x: pd.to_datetime(x))
         return df
+    
+    def get_ymwdh(self,df,column):
+        # features['year'] = clean_df['trip_Start_time'].dt.year
+        df['month'] = df[column].dt.month
+        df['day'] = df[column].dt.day
+        df['week_day'] = df[column].dt.weekday
+        df['hour'] = df[column].dt.hour
+        return df
