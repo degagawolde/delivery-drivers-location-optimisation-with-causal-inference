@@ -30,6 +30,9 @@ The second one is the table that contains delivery requests by clients (complete
 
 
 ## Data Cleaning
+- [x] Drop columns with empty entries
+- [x] Drop rows with NaN entries
+- [x] Merge the Two tables
 
 ## Feature Engineering
 
