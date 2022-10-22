@@ -46,6 +46,9 @@ from the trip start time.
 
 ## Visualization
 
+- [x] plot driver distance vs acceptance rate
+- [x] plot latitude vs longitude of dirver location 
+
 ## Causal Inference
 
 ## Conclusion
