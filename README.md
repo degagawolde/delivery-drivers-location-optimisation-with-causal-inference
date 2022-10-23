@@ -39,7 +39,7 @@ The second one is the table that contains delivery requests by clients (complete
 - [x] Calculate the driver proximity to the order using trip origin and driver location when the
 driver got the order which is given in lat and lng in the second table. 
 - [x] Calculate trip distance and trip duration and then trip speed.
-- [x]I also used the API from https://api.weatherbit.io/v2.0/history/daily? to get the weather
+- [x] I also used the API from https://api.weatherbit.io/v2.0/history/daily? to get the weather
 at a given location and time-stamp.
 - [x] Public, school, regional and national holidays are calculated
 from the trip start time.
