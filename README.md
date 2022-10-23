@@ -39,7 +39,7 @@ The second one is the table that contains delivery requests by clients (complete
 - [x] Calculate the driver proximity to the order using trip origin and driver location when the
 driver got the order which is given in lat and lng in the second table. 
 - [x] Calculate trip distance and trip duration and then trip speed.
-- [x]I also used the API from https://api.weatherbit.io/v2.0/history/daily? to get the weather
+- [x] I also used the API from https://api.weatherbit.io/v2.0/history/daily? to get the weather
 at a given location and time-stamp.
 - [x] Public, school, regional and national holidays are calculated
 from the trip start time.
@@ -49,8 +49,10 @@ from the trip start time.
 - [x] plot driver distance vs acceptance rate
 - [x] plot latitude vs longitude of dirver location 
 
-## Causal Inference
-
-## Conclusion
 
 ## Future Works
+- Create a causal graph using all training data and get the insights 
+- Create new causal graphs using increasing fractions of the data and compare them with the ground truth graph.
+- Train ML models (at least consider XGboost and Random Forest
+- Measure how much each of the models overfits the hold-out set created.
+- Formalise the problem of driver placement recommendation based on integer optimization.
