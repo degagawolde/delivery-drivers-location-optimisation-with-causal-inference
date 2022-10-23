@@ -49,8 +49,10 @@ from the trip start time.
 - [x] plot driver distance vs acceptance rate
 - [x] plot latitude vs longitude of dirver location 
 
-## Causal Inference
-
-## Conclusion
 
 ## Future Works
+- Create a causal graph using all training data and get the insights 
+- Create new causal graphs using increasing fractions of the data and compare them with the ground truth graph.
+- Train ML models (at least consider XGboost and Random Forest
+- Measure how much each of the models overfits the hold-out set created.
+- Formalise the problem of driver placement recommendation based on integer optimization.
